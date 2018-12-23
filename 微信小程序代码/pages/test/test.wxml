@@ -1,0 +1,15 @@
+<!--pages/test/test.wxml-->
+<button class='btn1' bindtap='lanternBtn'>
+    <image class='btnImg1' src='/Image/lantern.png'></image>
+    <view>电灯</view>
+ </button>
+
+ <button class='btn2' bindtap='airconditionerBtn'>
+    <image class='btnImg2' src='/Image/airconditioner.png'></image>
+    <view>空调</view>
+ </button>
+
+ <button class='btn3' bindtap='socketBtn'>
+    <image class='btnImg3' src='/Image/socket.png'></image>
+    <view>插座</view>
+ </button>

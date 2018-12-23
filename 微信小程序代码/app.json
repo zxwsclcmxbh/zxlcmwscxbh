@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/kongzhi/kongzhi",
+    "pages/our/our",
+    "pages/index/yuanli",
+    "pages/yuanli/yuanli",
+    "pages/thanks/thanks",
+    "pages/test/test"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cdcdcd",
+    "navigationBarTitleText": "智能宿舍",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#fff",
+    "backgroundColor": "#cdcdcd",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "Image/首页1.png",
+        "selectedIconPath": "Image/首页2.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "控制",
+        "iconPath": "Image/日志1.png",
+        "selectedIconPath": "Image/日志2.png"
+      },
+      {
+        "pagePath": "pages/our/our",
+        "text": "其他",
+        "iconPath": "Image/测试1.png",
+        "selectedIconPath": "Image/测试2.png"
+      }
+    ]
+  }
+}

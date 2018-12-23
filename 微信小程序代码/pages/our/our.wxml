@@ -1,0 +1,17 @@
+<view class='whole'>
+<button class='btn1' style='background-color:transparent'>
+    <image class='btnImg' src='/images/kefu.png'></image>
+    <view>团队故事</view>
+ </button>
+
+  <button class='btn2'  style='background-color:transparent' bindtap='yuanli'>
+    <image class='btnImg' src='/images/gongneng.png'></image>
+    <view>原理展示</view>
+ </button>
+<button class='btn3'  style='background-color:transparent'  bindtap='thanks'>
+    <image class='btnImg' src='/images/qidai.png'></image>
+    <view>敬请期待</view>
+ </button>
+
+
+</view>

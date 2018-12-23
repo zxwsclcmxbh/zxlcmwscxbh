@@ -1,0 +1,4 @@
+<!--pages/yuanli/yuanli.wxml-->
+ <view class="one"></view>
+ <view class="tow"></view>
+

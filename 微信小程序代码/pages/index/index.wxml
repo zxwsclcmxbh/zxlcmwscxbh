@@ -1,0 +1,36 @@
+
+<!--index.wxml-->  
+
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="1000" duration="2000">  
+
+      <block wx:for="{{movies}}" wx:for-index="index">  
+
+        <swiper-item>  
+
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+
+        </swiper-item>  
+
+      </block>  
+
+    </swiper>  
+    <view class="nav">
+    <view class="nav-item">
+    <view><image src="/images/light.png" style="width:40px;height:40px;"></image></view>
+    <view>电灯</view>
+    </view>
+     <view class="nav-item">
+     <view><image src="/images/air contioner.png" style="width:40px;height:40px;"></image></view>
+    <view>空调</view>
+    </view>
+    <view class="nav-item">
+    <view><image src="/images/chazuo.png" style="width:40px;height:40px;"></image></view>
+    <view>插座</view>
+    </view>
+    </view>
+    <view class="hr"></view>
+    <view class="ServiceCenter"></view>
+   
+
+
+   

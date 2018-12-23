@@ -1,0 +1,75 @@
+/* pages/test/test.wxss */
+.btn1 {
+  width: 30%;
+  margin-top: 250rpx;
+  background-color: #cdcdcd;
+  color: black;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg1 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+
+.btn2 {
+  width: 30%;
+  margin-top: 100rpx;
+  background-color: #cdcdcd;
+  color: black;
+  border-radius: 98rpx;
+  border-color:black;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.btnImg2 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn2::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+
+.btn3 {
+  width: 30%;
+  margin-top: 100rpx;
+  background-color: #cdcdcd;
+  color: black;
+  border-radius: 98rpx;
+  border-color:black;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.btnImg3 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn3::after {
+  border-radius: 98rpx;
+  border: 0; 
+}

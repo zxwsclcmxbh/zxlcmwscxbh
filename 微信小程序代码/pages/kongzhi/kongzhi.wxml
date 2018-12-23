@@ -1,0 +1,15 @@
+
+<view class='kai'>点我开灯</view>
+<view class="body-view1">
+  <switch checked bindchange="open"/>
+</view>
+<view class='guan'>点我关灯</view>
+  <view class="body-view2" color='red'>
+  <switch checked bindchange="close"/>
+</view>
+
+ <button class='btn4' bindtap='backBtn'>
+    <image class='btnImg4' src='/Image/back.png'></image>
+    <view>返回</view>
+ </button>
+
